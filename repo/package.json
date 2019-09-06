@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://a_rlopes@bitbucket.org/a_rlopes/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/a_rlopes/portfolio#readme",
+  "dependencies": {
+    "@mdi/font": "^4.1.95",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "jqueryui": "^1.11.1",
+    "materialize-css": "^1.0.0",
+    "popper.js": "^1.15.0",
+  }
+}
