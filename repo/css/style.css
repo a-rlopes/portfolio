@@ -234,10 +234,13 @@ textarea {
 .loader {
     position: fixed;
     left: 0;
-    top: 0;
+    top: -10vh;
     background: var(--green);
     width: 100%;
     height: 100vh;
+    clip-path: polygon(100% 0, 100% 76%, 65% 91%, 0 79%, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 76%, 65% 91%, 0 79%, 0 0);
+    -moz-clip-path: polygon(100% 0, 100% 76%, 65% 91%, 0 79%, 0 0);
     animation: backgroundChange .5s linear 3s forwards, fadeOut .5s linear 5s forwards;
 }
 
