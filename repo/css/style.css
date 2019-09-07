@@ -238,7 +238,7 @@ textarea {
     background: var(--green);
     width: 100%;
     height: 100vh;
-    animation: backgroundChange .5s linear 3s forwards, fadeOut .5s linear 5s forwards
+    animation: backgroundChange .5s linear 3s forwards, fadeOut .5s linear 5s forwards;
 }
 
 .load-text {
@@ -393,12 +393,25 @@ textarea {
 /* Background Animation */
 
 #main-text {
-    margin-top: 18em;
+    margin-top: 19em;
     z-index: 3;
+    opacity: 0;
+    animation: fadeUp 0.1s linear 5.5s forwards;
 }
 
 #main-text h3 {
     letter-spacing: 1.7px;
+}
+
+@keyframes fadeUp {
+    from {
+        margin-top: 18.5em;
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+        margin-top: 18em;
+    }
 }
 
 /*--------------------------------------------------------------
