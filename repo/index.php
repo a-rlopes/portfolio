@@ -11,6 +11,13 @@
     <title>Rita Lopes Portfolio</title>
 </head>
 <body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="load-text">
+            <div class="loaded-text">W</div>
+            <div class="loading-text">elcome</div>
+        </div>
+    </div>
     <!-- Header -->
     <nav class="navbar navbar-expand-lg container-fluid" id="mainNav" role="navigation">
         <div class="container-fluid">
