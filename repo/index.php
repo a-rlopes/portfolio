@@ -323,7 +323,7 @@
                     <hr class="hr white center"><br>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="lets-talk">
                 <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
                     <h6 class="blue-text" id="contact-description">
                        Let's talk, send me an e-mail!                  
@@ -359,6 +359,20 @@
                     </div>
                 </div>
             </form>
+            <div id="email-sent" class="container">
+                <div id="content">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                            <h3 id="success">Success</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                            <p id="success-p">Your e-mail was sent successfully	&#33;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Footer -->

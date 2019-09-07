@@ -661,6 +661,30 @@ p.skill-name {
     transform: translate(0, 0);
 }
 
+#email-sent {
+    display: none;
+    /*display: table;*/
+    height: 80%;
+}
+
+#email-sent #content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#success {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.4em;
+    text-transform: uppercase
+}
+
+#success-p {
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.4em;
+}
+
 
 /*--------------------------------------------------------------
 	Footer
