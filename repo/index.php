@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@mdi/font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Rita Lopes Portfolio</title>
 </head>
@@ -56,7 +57,7 @@
         </div>
     </div>
     <!-- About -->
-    <div class="container-fluid" id="about">
+    <div class="container-fluid" id="about" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4 float-md-right container-img">
@@ -64,7 +65,7 @@
                 </div>
                 <div class="col-xs-12 col-md-8 col-lg-8 col-xl-8 float-md-left">
                     <h1 class="green-text title-txt">Who am I &#63</h1>
-                    <hr class="hr green"></br>
+                    <hr class="hr green"><br>
                     <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
@@ -73,7 +74,7 @@
         </div>
     </div>
     <!-- Education -->
-    <div class="container-fluid green-background angled" id="education">
+    <div class="container-fluid green-background angled" id="education" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-12 education-title">
@@ -110,7 +111,7 @@
         </div>
     </div>
     <!-- Skills -->
-    <div class="container-fluid full-height" id="skills">
+    <div class="container-fluid full-height" id="skills" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
         <div class="pattern"></div>
         <div class="container">
             <div class="row title">
@@ -190,7 +191,7 @@
         </div>
     </div>
     <!-- Portfolio -->
-    <div class="container-fluid row angled larger" id="portfolio">
+    <div class="container-fluid row angled larger" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12 portfolio-title">
@@ -200,7 +201,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="portfolio-item">
                     <div class="item block">
                         <button>
@@ -210,7 +211,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="portfolio-item">
                     <div class="item block">
                         <button>
@@ -220,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="portfolio-item">
                     <div class="item block">
                         <button>
@@ -232,7 +233,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="portfolio-item">
                     <div class="item block">
                         <button>
@@ -242,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="portfolio-item">
                     <div class="item block">
                         <button>
@@ -252,7 +253,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="portfolio-item">
                     <div class="item block">
                         <button>
@@ -322,7 +323,7 @@
         </div>
     </div>
     <!-- Contact -->
-    <div class="container-fluid row green-background" id="contact">
+    <div class="container-fluid row green-background" id="contact" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
         <div class="container">
             <div class="row title">
                 <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
@@ -402,6 +403,7 @@
     <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="javascript/scrolling-nav.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="javascript/myjs.js"></script>
 </body>
 </html>
