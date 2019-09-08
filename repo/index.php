@@ -338,7 +338,7 @@
                     </h6>
                 </div>
             </div>
-            <form name="contact-form" id="contact-form" action="" method="POST">
+            <form name="contact-form" id="contact-form" action="" method="POST"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
                         <div class="form-group">

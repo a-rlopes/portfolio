@@ -1,5 +1,10 @@
 $(function() {
     AOS.init();
+
+    window.setTimeout(function() {
+        $(window).scrollTop(0); 
+    }, 80);
+
     $('body').addClass('stop-scrolling');
     setTimeout(() => {
         $('body').removeClass('stop-scrolling');
@@ -7,7 +12,6 @@ $(function() {
 });
 
 $(window).on('scroll', () => {
-    console.log('here');
     $('.lazy').each(() => {
         if($('.lazy').offset().top + 1 >= $('body').height() - $(window).height()){
             console.log($(this).addClass('animate')); 
