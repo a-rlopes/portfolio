@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4 float-md-right container-img">
-                    <img class="img-fluid" src="img/41443153_2335268026487751_4954639758308409344_o.jpg">
+                    <img class="img-fluid" src="img/me-close-cv.jpg">
                 </div>
                 <div class="col-xs-12 col-md-8 col-lg-8 col-xl-8 float-md-left">
                     <h1 class="green-text title-txt">Who am I &#63</h1>
@@ -338,7 +338,7 @@
                     </h6>
                 </div>
             </div>
-            <form name="contact-form" id="contact-form" action="" method="POST"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
+            <form name="contact-form" id="contact-form" action="contactForm.php" method="POST"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
                         <div class="form-group">
@@ -360,7 +360,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
                         <div id="send-btn">
-                            <button name="submit" type="button" class="btn btn-lg white-text blue-background btn-move">
+                            <button name="submit" type="submit" class="btn btn-lg white-text blue-background btn-move">
                                 Send
                             </button>
                         </div>
