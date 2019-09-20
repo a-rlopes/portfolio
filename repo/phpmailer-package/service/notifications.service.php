@@ -55,7 +55,7 @@ class NotificationsService
             }
 
             // Origin
-            $mail->setFrom($address, $address_name);
+            $mail->setFrom($address_from, $address_name);
 
             // Recipient
             $mail->addAddress($config['mail']['to_email'], $config['mail']['to_name']);

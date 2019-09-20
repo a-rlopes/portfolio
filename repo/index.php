@@ -399,7 +399,6 @@
     <!-- Scripts -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/jqueryui/jquery-ui.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper-utils.min.jsnp"></script>
     <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="javascript/scrolling-nav.js"></script>
